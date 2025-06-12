@@ -1,0 +1,5 @@
+# Evaluation
+
+I believe that I did had carried out all of the objectives I set out for myself in the analysis section. Although one of my tests failed, that was due to an inaccuracy in my design whereby I handled the operands in the wrong order.<br>
+A limitation of my program is that expressions must be bracketed to indicate the order in which it should be calculated; in other words, my program does not have an awareness of the order of operations. I believe a better approach would be to convert the expression into Reverse Polish Notation, and evaluate that, as that does not require brackets to be present.<br>
+My program also will not handle negative numbers (unary minus) properly, as it does not view them as being part of the digit, and will instead consider them to be the subtraction operator.
